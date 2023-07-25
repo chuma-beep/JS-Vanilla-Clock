@@ -1,7 +1,9 @@
+//variables
 const secondHand = document.querySelector(".second-hand");
 const minHand = document.querySelector(".min-hand");
 const hourHand = document.querySelector(".min-hand");
 
+//date function
 function setDate(){
     const now = new Date()
     const seconds = now.getSeconds();
